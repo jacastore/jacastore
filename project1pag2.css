@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Android";
+    src: url(idroid/IDroid.otf) format(opentype);
+}
+
+:root {
+    --cor1: #86cf89;
+    --cor2: #263326;
+    --cor3: white;
+    --cor4: #465247;
+}
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(var(--cor1), var(--cor4));
+}
+
+header > h1 {
+    font-family: "Android", sans-serif;
+    color: var(--cor3);
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+main > h2 {
+    padding: 10px;
+}
+
+main > h3 {
+    padding: 15px;
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 10px;
+}
+
+article {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article button {
+    margin-top: 15px;
+    color: var(--cor2);
+    background-color: var(--cor3);
+    font-weight: bolder;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+article nav {
+    text-align: right;
+    margin-right: 10px;
+}
+
+article > nav > a > button {
+    margin-right: 5px;
+}
+
+article button:hover {
+    color: var(--cor3);
+    background-color: var(--cor4);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--cor3);
+    background-color: var(--cor4);
+    padding: 2px;
+}
+
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:active {
+    text-decoration: none;
+}
