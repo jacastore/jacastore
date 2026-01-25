@@ -78,7 +78,7 @@ article button:hover {
 footer {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     color: var(--cor3);
     background-color: var(--cor4);
     padding: 2px;
