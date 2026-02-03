@@ -42,8 +42,9 @@ section > h2 {
     font-weight: lighter;
     background-color: var(--cor4);
     color: var(--cor3);
-    margin-top: 15px;
+    margin-top: 20px;
     margin-right: -5px;
+    margin-bottom: 20px;
     margin-left: -5px;
     position: sticky;
     top: -1px;
@@ -81,6 +82,7 @@ article > p {
 
 .img {
     width: 100%;
+    height: 500px;
     border-radius: 30px 30px 0px 0px;
 }
 
