@@ -28,6 +28,22 @@ header {
     font-weight: bolder;
 }
 
+nav {
+    text-align: right;
+}
+
+nav button {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+nav button:hover {
+    color: var(--cor3);
+    background-color: var(--cor4);
+}
+
 section {
     text-align: center;
     margin: 0;
