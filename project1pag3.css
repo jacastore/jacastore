@@ -119,10 +119,3 @@ footer nav a img {
     border-radius: 50%;
     padding: 5px;
 }
-
-footer nav a img:hover {
-    position: relative;
-    transform: translate(-5px, -5px);
-    transition: transform 0.2s;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
-}
