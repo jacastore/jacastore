@@ -281,17 +281,8 @@ footer {
     padding: 0px;
 }
 
-footer h4 {
-    font-family: "Android", sans-serif;
+footer nav {
     padding: 10px;
-    text-align: left;
-}
-
-footer h4 nav {
-    padding: 10px;
-    margin-right: -10px;
-    margin-bottom: -10px;
-    margin-left: -10px;
 }
 
 footer nav a img {
