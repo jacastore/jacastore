@@ -196,6 +196,7 @@ nav button {
     height: 200px;
     background-color: var(--cor3);
     background-image: url("products/pro.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
