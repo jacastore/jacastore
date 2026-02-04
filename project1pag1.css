@@ -273,23 +273,31 @@ footer {
     text-align: center;
     color: var(--cor3);
     background-color: var(--cor4);
-    padding: 2px;
+    padding: 0px;
 }
 
 footer h4 {
-    padding: 30px;
+    font-family: "Android", sans-serif;
+    padding: 10px;
     text-align: left;
 }
 
-footer nav {
-    margin-top: -6px;
-    margin-right: -2px;
-    margin-left: -2px;
+footer h4 nav {
     padding: 10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
 }
 
 footer nav a img {
     width: 45px;
     border-radius: 50%;
     padding: 5px;
+}
+
+footer nav a img:hover {
+    position: relative;
+    transform: translate(-5px, -5px);
+    transition: transform 0.2s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
 }
