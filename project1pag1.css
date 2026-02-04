@@ -279,10 +279,16 @@ footer {
     color: var(--cor3);
     background-color: var(--cor4);
     padding: 0px;
+    margin-top: 20px;
 }
 
 footer nav {
     padding: 10px;
+    background-color: var(--cor4);
+}
+
+footer nav a {
+    margin-right: 0px;
 }
 
 footer nav a img {
