@@ -203,7 +203,7 @@ nav button {
     color: var(--cor3);
     background-color: var(--cor4);
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     box-shadow: 10px 10px 10px var(--cor5);
 }
 
