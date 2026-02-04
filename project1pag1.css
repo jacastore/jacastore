@@ -193,8 +193,10 @@ nav button {
 }
 
 #sec35 {
-    height: 400px;
+    height: 300px;
+    background-color: var(--cor3);
     background-image: url("products/pro.jpg");
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
