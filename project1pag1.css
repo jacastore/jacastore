@@ -162,7 +162,7 @@ button:hover {
 }
 
 #sec3 {
-    margin-top: 20px;
+    margin-top: -3.5px;
     background-color: var(--cor4);
     box-shadow: 10px 10px 10px var(--cor5);
 }
@@ -190,6 +190,13 @@ button:hover {
 
 nav button {
     margin-right: -10px;
+}
+
+#sec35 {
+    height: 400px;
+    background-image: url("products/pro.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #sec4 {
