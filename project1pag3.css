@@ -102,7 +102,7 @@ article > p {
 
 footer {
     height: 70px;
-    text-align: center;
+    text-align: right;
     color: var(--cor3);
     background-color: var(--cor4);
     padding: 0px;
