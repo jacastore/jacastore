@@ -192,21 +192,11 @@ nav button {
     margin-right: -10px;
 }
 
-#sec35 {
-    height: 200px;
-    background-color: var(--cor3);
-    background-image: url("products/pro3.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 #sec4 {
     color: var(--cor3);
     background-color: var(--cor4);
     padding: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
     box-shadow: 10px 10px 10px var(--cor5);
 }
 
