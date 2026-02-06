@@ -107,6 +107,8 @@ footer {
     background-color: var(--cor4);
     padding: 0px;
     margin-top: 20px;
+    margin-right: -5px;
+    margin-left: -5px;
 }
 
 footer nav {
